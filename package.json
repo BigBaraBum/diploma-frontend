@@ -2,7 +2,7 @@
   "name": "diploma-frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "rimraf dist && NODE_ENV=production webpack --mode production",
     "dev": "NODE_ENV=development webpack-dev-server --mode development --open --watch",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/BigBaraBum/diploma-frontend/issues"
   },
-  "homepage": "https://github.com/BigBaraBum/diploma-frontend#readme"
+  "homepage": "https://github.com/BigBaraBum/diploma-frontend#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
 }
