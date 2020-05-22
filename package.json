@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && NODE_ENV=production webpack --mode production",
-    "dev": "NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "dev": "webpack-dev-server --mode development --open --watch",
     "deploy": "NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
