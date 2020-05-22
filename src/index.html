@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Инкин Никита">
+    <meta name="description" content ="Поисковик новостей">
     <title>News Explorer</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 <body class="root">
         <header class="header">
-
+            <h1 class="header__title">NewsExplorer</h1>
         </header>
         <main class="page">
             <section class="search">
-
+                <h2 class="search__title">Что в мире творится?</h2>
             </section>
             <section class="results">
     
             </section>
             <section class="about-author">
+                <img src="<%=require('./images/avatar.jpg').default%>" alt="" class="about-author">
+                <div class="about-author__info">
+                    <h2 class="about-author__title">Об авторе</h2>
+                    <p class="about-author__text">Вставить текст о себе</p>
+                </div>
     
             </section>
         </main>
