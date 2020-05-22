@@ -2,4 +2,5 @@
 @import url(../blocks/search/search.css);
 @import url(../blocks/about-author/about-author.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/preloader/preloader.css);
 @import url(../vendor/fonts.css);
