@@ -1,0 +1,7 @@
+@import url(./_white/header__link_white.css);
+@import url(./_selected/header__link_selected.css);
+.header__link{
+    text-decoration: none;
+    margin-right: 34px;
+
+}

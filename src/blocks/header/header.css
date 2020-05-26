@@ -1,0 +1,13 @@
+@import url(./__bar/header__bar.css);
+@import url(./__title/header__title.css);
+@import url(./__navigation/header__navigation.css);
+@import url(./__button/header__button.css);
+@import url(./__link/header__link.css);
+
+.header {
+
+    background-image: url(../../images/shadowed_background.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,15 @@
+@import url(./_black/header__menu-icon_black.css);
+@import url(./_white/header__menu-icon_white.css);
+
+.header__menu-icon{
+    display: none;
+    width: 24px;
+    height: 24px;
+    background-position: 50%;
+}
+
+@media screen and (max-width: 540px){
+    .header__menu-icon{
+        display: flex;
+    }
+}
