@@ -1,0 +1,12 @@
+.search__input{
+    height: 22px;
+    max-width: 50%;
+    font-family: Roboto;
+    font-weight: 400;
+    color: black;
+    margin-left: 24px;
+    margin-right: 32px;
+    border: 0;
+    font-size: 16px;
+    caret-color: #2F71E5;
+}
