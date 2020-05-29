@@ -1,0 +1,15 @@
+.button {
+    border-radius: 100px;
+    display: block;
+    cursor: pointer;
+  }
+
+.button:active {
+  border: none;
+  outline: none;
+}
+
+.button:focus {
+  border: none;
+  outline: none;
+}

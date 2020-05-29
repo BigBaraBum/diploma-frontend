@@ -1,0 +1,7 @@
+.result__icon_delete{
+    background-image: url(../../../../images/delete.svg);
+}
+
+.result__icon_delete:hover{
+    background-image: url(../../../../images/delete_hover.svg);
+}
