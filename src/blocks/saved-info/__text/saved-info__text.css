@@ -1,0 +1,21 @@
+.saved-info__text {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px) {
+    .saved-info__text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .saved-info__text {
+        margin-top: 16px; 
+    }
+}
