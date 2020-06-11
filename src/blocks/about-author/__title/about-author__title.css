@@ -1,0 +1,11 @@
+.about-author__title{
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .about-author__title{
+        margin-bottom: 16px;
+    }
+}
