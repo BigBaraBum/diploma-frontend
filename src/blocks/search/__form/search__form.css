@@ -7,3 +7,9 @@
     border-radius: 100px;
     background-color: white;
 }
+@media screen and (max-width: 530px) {
+    .search__form{
+        flex-direction: column;
+        background: transparent;
+    }
+}
