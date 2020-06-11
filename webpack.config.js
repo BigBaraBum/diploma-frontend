@@ -52,6 +52,11 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html'
     }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/pages/saved.html',
+      filename: 'saved.html',
+    }),
     new WebpackMd5Hash(),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
