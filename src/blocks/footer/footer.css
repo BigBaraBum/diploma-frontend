@@ -1,0 +1,21 @@
+@import url(./__info/footer__info.css);
+@import url(./__container/footer__container.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__social-links/footer__social-links.css);
+@import url(./__social-link/footer__social-link.css);
+@import url(./__icon/footer__icon.css);
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 32px 104px 26px;
+}
+@media screen and (max-width: 780px) {
+    .footer{
+        flex-direction: column-reverse;
+    }
+}

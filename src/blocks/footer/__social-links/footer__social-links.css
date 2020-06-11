@@ -1,0 +1,10 @@
+.footer__social-links {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 780px) {
+    .footer__social-links {
+        margin-top: 11px;
+    }
+}
