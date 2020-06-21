@@ -1,0 +1,35 @@
+@import url(./__found/results__found.css);
+@import url(./__title/results__title.css);
+@import url(./__list/results__list.css);
+@import url(./__card/results__card.css);
+@import url(./__icon/results__icon.css);
+@import url(./__link/results__link.css);
+@import url(./__image-container/results__image-container.css);
+@import url(./__image/results__image.css);
+@import url(./__date/results__date.css);
+@import url(./__text-container/results__text-container.css);
+@import url(./__card-title/results__card-title.css);
+@import url(./__text/results__text.css);
+@import url(./__source/results__source.css);
+@import url(./__message-box/results__message-box.css);
+@import url(./__message-text/results__message-text.css);
+@import url(./__show-more/results__show-more.css);
+@import url(./__empty/results__empty.css);
+@import url(./__loading/results__loading.css);
+@import url(./__empty-title/results__empty-title.css);
+@import url(./__empty-text/results__empty-text.css);
+
+.results {
+    background-color: #f5f6f7;
+    padding: 80px 104px;
+}
+@media screen and (max-width: 480px) {
+    .results{
+        padding: 32px 16px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 920px) {
+    .results{
+        padding: 40px;
+    }
+}

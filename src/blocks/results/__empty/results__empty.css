@@ -1,0 +1,7 @@
+.results__empty{
+    padding-top: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+@import url(./_white/header__button_white.css);
+@import url(./_black/header__button_black.css);
+.header__button{
+    display: flex;
+    justify-content: center;
+	background-color: unset;
+	border: 1px solid;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding:11px 12px;
+    margin-right: 104px;
+    font-size: 18px;
+    font-weight: 500;
+
+}

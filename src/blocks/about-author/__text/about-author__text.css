@@ -1,0 +1,17 @@
+.about-author__text {
+    color: #1a1b22;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 42vw;
+    margin-top: 0;
+    max-width: 400px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .about-author__text {
+      width: calc(100vw - 48px);
+    }
+  }

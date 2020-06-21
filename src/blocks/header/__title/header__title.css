@@ -1,0 +1,8 @@
+@import url(./_black/header__title_black.css);
+@import url(./_white/header__title_white.css);
+.header__title{
+	font-family: Roboto Slab;
+    font-size:20px;
+    font-weight: 700;
+    text-decoration: none;
+}

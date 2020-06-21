@@ -1,0 +1,15 @@
+.header__navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Roboto;
+}
+@media screen and (max-width: 1024px) {
+    .header__navigation{
+        display: none;
+    }
+}

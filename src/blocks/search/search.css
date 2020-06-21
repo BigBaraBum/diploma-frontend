@@ -1,0 +1,21 @@
+@import url(./__title/search__title.css);
+@import url(./__form/search__form.css);
+.search{
+    padding: 80px 104px;
+    color: white;
+    max-width: 705px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .search{
+        padding: 32px 16px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 920px) {
+    .search{
+        padding: 40px;
+    }
+}

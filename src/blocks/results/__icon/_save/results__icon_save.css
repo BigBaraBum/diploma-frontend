@@ -1,0 +1,6 @@
+.results__icon_save{
+    background-image: url(../../../../images/save.svg);
+}
+.results__icon_save:hover{
+    background-image: url(../../../../images/save_hover.svg);
+}

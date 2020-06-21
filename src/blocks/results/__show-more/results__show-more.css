@@ -1,0 +1,33 @@
+.results__show-more{
+    width: 288px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 56px auto 0;
+}
+
+.results__show-more:hover{
+    opacity: 0.9;
+}
+
+.results__show-more:active{
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 430px) {
+    .results__show-more{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 780px) and (min-width: 430px) {
+    .results__show-more{
+        margin-top: 22px;
+    }
+}

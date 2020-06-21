@@ -1,0 +1,19 @@
+@import url(./_active/popup__button_active.css);
+@import url(./_inactive/popup__button_inactive.css);
+
+.popup__button{
+    width: 360px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: 0;
+    margin: 39px auto 16px;
+}
+@media screen and (max-width: 425px){
+    .popup__button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,8 @@
+@import url(./__subtitle/saved-info__subtitle.css);
+@import url(./__title/saved-info__title.css);
+@import url(./__text/saved-info__text.css);
+@import url(./__keywords/saved-info__keywords.css);
+
+.saved-info{
+    padding: 80px 104px;
+}
